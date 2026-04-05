@@ -19,6 +19,8 @@
 #include "IClockface.h"
 #include "Icons.h"
 
+namespace CF02 {
+
 
 class Clockface: public IClockface {
   private:
@@ -34,3 +36,5 @@ class Clockface: public IClockface {
     void setup(CWDateTime *dateTime);
     void update();
 };
+
+} // namespace CF02

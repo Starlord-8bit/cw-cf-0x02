@@ -3,10 +3,9 @@ cmake_minimum_required(VERSION 3.5)
 set(INCLUDE_DIRS)
 set(SRC_DIRS)
 
-if(CONFIG_CLOCKFACE_TIME_IN_WORDS)
   list(APPEND INCLUDE_DIRS ".")
   list(APPEND SRC_DIRS ".")
-endif()
+
 
 idf_component_register(
                        INCLUDE_DIRS ${INCLUDE_DIRS}

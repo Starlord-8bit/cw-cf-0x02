@@ -1,6 +1,8 @@
 
 #include "Clockface.h"
 
+namespace CF02 {
+
 const char* FORMAT_TWO_DIGITS = "%02d";
 
 EventBus eventBus;
@@ -132,3 +134,5 @@ void Clockface::updateTemperature()
   Locator::getDisplay()->drawRGBBitmap(12, 55, MAIL, 8, 8);
   Locator::getDisplay()->drawRGBBitmap(55, 55, WEATHER_CLOUDY_SUN, 8, 8);
 }
+
+} // namespace CF02
