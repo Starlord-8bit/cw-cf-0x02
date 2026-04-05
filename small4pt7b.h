@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #include <gfxfont.h>
 
+namespace CF02 {
+
 
 const uint8_t small4pt7bBitmaps[] PROGMEM = {
   0x00, 0xE4, 0xB4, 0x00, 0x57, 0xD5, 0xF5, 0x00, 0x23, 0xE0, 0xE0, 0xF8, 
@@ -137,3 +139,5 @@ const GFXfont small4pt7b PROGMEM = {
   (GFXglyph *)small4pt7bGlyphs, 0x20, 0x7e,    10 };
 
 // Approx. 1056 bytes
+
+} // namespace CF02
