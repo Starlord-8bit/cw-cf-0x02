@@ -19,6 +19,8 @@
 #include "IClockface.h"
 #include "Icons.h"
 
+#define CLOCKFACE_NAME "cw-cf-0x02"
+
 namespace CF02 {
 
 
