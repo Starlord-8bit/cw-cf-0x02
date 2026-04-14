@@ -16,8 +16,8 @@
 #include "DateI18nEN.h"
 
 // Commons
-#include "IClockface.h"
-#include "Icons.h"
+#include "widgets/clockface/IClockface.h"
+#include "display/Icons.h"
 
 #define CLOCKFACE_NAME "cw-cf-0x02"
 
